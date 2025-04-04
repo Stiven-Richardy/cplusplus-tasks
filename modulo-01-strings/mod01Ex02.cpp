@@ -10,3 +10,12 @@ Informar se esta mensagem é ou não um dado palíndromo (no caso de haver espaços 
 Exemplos: OVO, ARARA, SOCORRAM ME SUBI NO ONIBUS EM MARROCOS.
 */
 
+#include <iostream>
+#include <locale.h>
+
+using namespace std;
+
+int main(int argc, char** argv) 
+{
+	return 0;
+}
