@@ -329,6 +329,7 @@ int main(int argc, char** argv) {
  	 	 	 << "| Pressione qualquer tecla para continuar..." << endl 
    	    	 << "--------------------------------------------" << endl;
     	_getch();
+    	cin.ignore(1000,'\n');
 		system("cls");
 		
 		nasc = new Data(data.dia, data.mes, data.ano);
